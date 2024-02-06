@@ -10,11 +10,11 @@ to predict the functionality and mobility of these genes, highlighting the model
 A comprehensive comparison of  ProtAlign-ARG with both the alignment-based scoring model
 and the pre-trained protein language model clearly shows the superior performance of ProtAlign-ARG.
 
-#Data
+# Data
 The Data folder has the dataset processed into train and test sets. You can use the graph part and CDHIT tool to achieve the clustering results.
 
-#Train
+# Train
 The ARG_Train.py and ARG_Test.py are the training and testing scripts. You can use Generate_Embedding.py to generate embedding for your train or test set. Use requirements.txt to have the necessary libraries installed. 
 
-#Results
+# Results
 The Models and Embeddings folder has the generated models and embeddings for the experiments. You can use these models to further analyze or validate the results.
