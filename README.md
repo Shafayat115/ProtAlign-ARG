@@ -18,3 +18,14 @@ The ARG_Train.py and ARG_Test.py are the training and testing scripts. You can u
 
 # Results
 The Models and Embeddings folder has the generated models and embeddings for the experiments. You can use these models to further analyze or validate the results.
+
+# Citation
+If you would like to use ARG-BERT, please cite our paper
+@article{ahmed2024protalign,
+  title={ProtAlign-ARG: Antibiotic Resistance Gene Characterization Integrating Protein Language Models and Alignment-Based Scoring},
+  author={Ahmed, Shafayat and Emon, Muhit Islam and Moumi, Nazifa Ahmed and Huang, Lifu and Zhou, Dawei and Vikesland, Peter and Pruden, Amy and Zhang, Liqing},
+  journal={bioRxiv},
+  pages={2024--03},
+  year={2024},
+  publisher={Cold Spring Harbor Laboratory}
+}
