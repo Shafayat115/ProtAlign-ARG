@@ -30,4 +30,3 @@ If you would like to use ARG-BERT, please cite our paper
   year={2024},
   publisher={Cold Spring Harbor Laboratory}
 }
-```sh
