@@ -22,8 +22,12 @@ The Models and Embeddings folder has the generated models and embeddings for the
 # Citation
 If you would like to use ARG-BERT, please cite our paper
 ```sh
-<div style="border: 1px solid black; padding: 10px; background-color: #f9f9f9;">
-  <strong>Important Note:</strong>
-  <p>This is a box created using HTML within a Markdown file. You can customize the style as needed.</p>
-</div>
+@article{ahmed2024protalign,
+  title={ProtAlign-ARG: Antibiotic Resistance Gene Characterization Integrating Protein Language Models and Alignment-Based Scoring},
+  author={Ahmed, Shafayat and Emon, Muhit Islam and Moumi, Nazifa Ahmed and Huang, Lifu and Zhou, Dawei and Vikesland, Peter and Pruden, Amy and Zhang, Liqing},
+  journal={bioRxiv},
+  pages={2024--03},
+  year={2024},
+  publisher={Cold Spring Harbor Laboratory}
+}
 ```sh
