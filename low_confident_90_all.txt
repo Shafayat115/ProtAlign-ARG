@@ -1,0 +1,6 @@
+id ground_truth predicted
+AAK48336.1 1 3
+CAG41169 2 3
+CAH16951.1 3 2
+CCE36834 2 3
+CCP42728.1 0 1

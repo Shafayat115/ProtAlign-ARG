@@ -16,18 +16,18 @@ print("Using {}".format(device))
 
 # Replace this file with your own (multi-)FASTA
 # Headers are expected to start with ">";
-seq_path = "./Data/Less_50_test.fasta"
+seq_path = "./Data/ARG_Class_Beta_Test.fasta"
 
 # whether to retrieve embeddings for each residue in a protein 
 # --> Lx1024 matrix per protein with L being the protein's length
 # as a rule of thumb: 1k proteins require around 1GB RAM/disk
 per_residue = False 
-per_residue_path = "./Embeddings/per_residue_embeddings.h5" # where to store the embeddings
+per_residue_path = "./Embeddings/ARG_Class_Beta_Test.h5" # where to store the embeddings
 
 # whether to retrieve per-protein embeddings 
 # --> only one 1024-d or 4096-d vector per protein, irrespective of its length. CHECK the embedding dimension. Dimension depends on which pretrained model has been used.
 per_protein = True
-per_protein_path = "./Embeddings/Less_50_test.h5" # where to store the embeddings
+per_protein_path = "./Embeddings/ARG_Class_Beta_Test.h5" # where to store the embeddings
 
 # whether to retrieve secondary structure predictions
 # This can be replaced by your method after being trained on ProtT5 embeddings

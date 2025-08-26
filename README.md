@@ -12,13 +12,13 @@
 
 ## Quick start
 
-###  Clone
+### Clone
 ```bash
 git clone https://github.com/Shafayat115/ProtAlign-ARG.git
 cd ProtAlign-ARG
 ```
 
-###  Environment (choose one)
+### Environment (choose one)
 
 **Conda (recommended)**
 ```bash
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 > Tip: Keep both files in the repo. Use `environment.yml` for exact reproduction on CUDA/MKL stacks; use `requirements.txt` if you only need pip wheels.
 
-###  Install DIAMOND (for the alignment fallback)
+### Install DIAMOND (for the alignment fallback)
 ```bash
 # easiest via bioconda
 conda install -y -c bioconda diamond
@@ -154,6 +154,26 @@ If you use **ProtAlign-ARG**, please cite:
 @article{ahmed2025protalign,
   title={ProtAlign-ARG: antibiotic resistance gene characterization integrating protein language models and alignment-based scoring},
   author={Ahmed, Shafayat and Emon, Muhit Islam and Moumi, Nazifa Ahmed and Huang, Lifu and Zhou, Dawei and Vikesland, Peter and Pruden, Amy and Zhang, Liqing},
+  journal={Scientific Reports},
+  volume={15},
+  number={1},
+  pages={30174},
+  year={2025},
+  publisher={Nature Publishing Group UK London}
+}
+```
+
+---
+
+## License
+
+TBD (add your license file and note here).
+
+---
+
+## Acknowledgements
+
+Built on top of Protein Language Models (ProtTrans family) and DIAMOND. Thanks to the open-source community.
   journal={Scientific Reports},
   volume={15},
   number={1},
