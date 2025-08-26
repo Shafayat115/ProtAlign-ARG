@@ -2,3 +2,5 @@ Models/*.h5
 Embeddings/*.h5
 Models/*.h5
 Embeddings/*.h5
+Models/ARG_Class_Beta_Train.h5
+Models/Graph_Part_ARG_40_Train.h5
