@@ -12,13 +12,13 @@
 
 ## Quick start
 
-### 0) Clone
+### Clone
 ```bash
 git clone https://github.com/Shafayat115/ProtAlign-ARG.git
 cd ProtAlign-ARG
 ```
 
-### 1) Environment (choose one)
+### Environment (choose one)
 
 **Conda (recommended)**
 ```bash
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 > Tip: Keep both files in the repo. Use `environment.yml` for exact reproduction on CUDA/MKL stacks; use `requirements.txt` if you only need pip wheels.
 
-### 2) Install DIAMOND (for the alignment fallback)
+### Install DIAMOND (for the alignment fallback)
 ```bash
 # easiest via bioconda
 conda install -y -c bioconda diamond
